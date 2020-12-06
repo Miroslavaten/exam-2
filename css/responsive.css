@@ -1,0 +1,89 @@
+@media (min-width: 767px) and (max-width: 1123px) {
+  .container {
+    max-width: 752px;
+  }
+
+  .header__logo {
+    background-image: url(../images/logo-tablet.svg);
+    background-repeat: no-repeat;
+    width: 106px;
+    height: 14px;
+  }
+
+  .hero-info {
+    width: 432px;
+  }
+
+  .hero__info-title {
+    padding-left: 46px;
+  }
+
+  .hero__info-description {
+    width: 336px;
+    margin-left: 47px;
+  }
+
+  .menu__cards {
+    gap: 32px 16px;
+  }
+
+  .menu__item-description {
+    padding: 15px 0 0 22px;
+  }
+
+  .menu__item-price {
+    left: 22px;
+  }
+
+  .menu__item-preview {
+    width: 200px;
+    height: 160px;
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+
+  .footer {
+    margin-top: 49px;
+  }
+
+  .footer-content {
+    max-width: 583px;
+  }
+
+  .language select {
+    width: 176px;
+  }
+
+  .language select {
+    padding-left: 47px;
+  }
+
+  .language::before {
+    top: 11px;
+  }
+
+  .language::after {
+    top: 17px;
+    right: 9px;
+}
+
+  .footer-tag {
+    margin-top: 31px;
+    margin-bottom: 16px;
+  }
+
+  .footer__content-center {
+    margin-left: -7px;
+    margin-top: 6px;
+  }
+
+  .footer__content-right {
+    margin-top: 6px;
+  }
+
+  .footer-bottom {
+    margin-top: 42px;
+  }
+}
