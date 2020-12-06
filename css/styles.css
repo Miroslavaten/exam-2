@@ -114,3 +114,58 @@ h3 {
 }
 
 /*//header*/
+/* hero */
+
+.hero {
+  position: relative;
+  background: url(../images/hero-bg.jpg) no-repeat;
+  background-size: cover;
+  height: 364px;
+  width: 100%;
+}
+
+.hero-info {
+  position: absolute;
+  top: 80px;
+  width: 389px;
+  height: 204px;
+  background: var(--main-color-white);
+  box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+}
+
+.hero__info-title {
+  font-size: 36px;
+  line-height: 42px;
+  padding: 38px 0 62px 38px;
+}
+
+.hero__info-description {
+  width: 319px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 37px;
+}
+
+.hero-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-color-light-gray);
+}
+
+.hero-time {
+  width: 97px;
+  height: 32px;
+  background: #262626;
+  border-radius: 16px;
+  color: var(--main-color-white);
+  margin-top: -9px;
+}
+
+.hero__time-text {
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 8px;
+}
+
+/* //hero */
