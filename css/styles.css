@@ -1,8 +1,8 @@
 :root {
   --main-global-color: #1d1d1d;
-  --main-global-color: #ffffff;
-  --main-global-color: #626262;
-  --main-global-color: #262626;
+  --main-color-white: #ffffff;
+  --main-color-light-gray: #626262;
+  --main-color-dark-gray: #262626;
 }
 
 * {
@@ -32,6 +32,16 @@ h1,
 h2,
 h3 {
   font-weight: 400;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 956px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -71,10 +81,10 @@ h3 {
 .header-reg {
   font-weight: 500;
   line-height: 24;
-  background: var(--main-global-gary);
+  background: var(--main-color-dark-gray);
   border-radius: 2px;
   text-align: center;
-  color: var(--main-global-white);
+  color: var(--main-color-white);
   padding: 14px 16px 11px 16px;
   margin-right: 25px;
   transition: all 0.2s;
@@ -86,7 +96,7 @@ h3 {
   color: var(--main-color-white);
 }
 
-.header__basket {
+.header-basket {
   margin-right: 10px;
   width: 19px;
   height: 21.74px;
