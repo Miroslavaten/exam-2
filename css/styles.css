@@ -270,3 +270,161 @@ h3 {
 
 /* //menu-cards */
 /* main */
+
+/* footer */
+.footer {
+  background: var(--main-color-dark-gray);
+  height: 443px;
+  margin-top: 80px;
+}
+
+.footer-logo {
+  background-image: url(../images/footer-logo.svg);
+  background-repeat: no-repeat;
+  width: 192px;
+  height: 21px;
+  display: inline-block;
+  margin-top: 55px;
+}
+
+.footer-line {
+  background: var(--main-color-white);
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+.footer-line_bottom {
+  margin-top: 53px;
+}
+
+.footer-content {
+  max-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* footer__content-left */
+.language {
+  position: relative;
+}
+
+.language::before {
+  position: absolute;
+  content: '';
+  background: url(../images/globus.svg) no-repeat;
+  width: 15.72px;
+  height: 15.72px;
+  background-size: cover;
+  display: inline-block;
+  top: 13px;
+  left: 15px;
+}
+
+.language::after {
+  position: absolute;
+  content: '';
+  background: url(../images/arrow.svg) no-repeat;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  top: 16px;
+  right: 8px;
+}
+
+.language select {
+  appearance: none;
+  width: 227px;
+  background: #3b3b3b;
+  border-radius: 2px;
+  border: 0;
+  color: var(--main-color-white);
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 15px;
+  padding: 12px 8px 13px 48px;
+}
+
+.language select:focus {
+  outline: none;
+}
+
+.footer-tag {
+  color: var(--main-color-white);
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 33px;
+  margin-bottom: 17px;
+}
+
+.footer-tag::before {
+  content: '#';
+  color: #49a144;
+  margin-right: 1px;
+}
+
+.icon-fb {
+  background-image: url(../images/facebook.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.icon-twitter {
+  background-image: url(../images/twitter.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.icon-instagram {
+  background-image: url(../images/instagram.svg);
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+/* //footer__content-left */
+
+/* footer__content-center */
+.footer__content-center {
+  margin-left: -58px;
+  margin-top: 8px;
+}
+
+.footer-link {
+  display: block;
+  color: var(--main-color-white);
+  margin-bottom: 23.5px;
+}
+
+.footer-link:last-child {
+  margin-bottom: 0;
+}
+/* //footer__content-center */
+
+/* footer__content-right */
+.footer__content-right {
+  margin-top: 7px;
+}
+/* //footer__content-right */
+
+/* footer-bottom */
+.footer-bottom {
+  margin-top: 40px;
+  max-width: 678px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__bottom-text {
+  color: var(--main-color-white);
+  font-size: 11px;
+  line-height: 13px;
+}
+/* //footer-bottom */
+/* //footer */
